@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+font-family: 'Inter';
+
+--backgroundcolor:rgb(255, 255, 255) ;
+--fontcolor1: rgb(66, 64, 69);
+--fontcolor2: rgb(0, 0, 0);
+--fontcolor3: rgb(66, 64, 69);
+--button1: rgb(101, 201, 34);
+--button2:rgb(158, 253, 56);
+
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
