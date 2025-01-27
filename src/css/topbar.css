@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.topbar{
+  display: flex;
+  align-items: center;
+  padding: 0 px;
+} 
+.slider-container {
+  flex: 1;
+}
+.carousel-caption {
+    position: static; 
+    display: flex;
+    text-align: left;
+    color: var(--fontcolor2); 
+    line-height: 24px;
+    font-family: 'Inter';
+    font-size: 16px; 
+    font-weight: 600;
+    padding: 15px 54px;
+    height: 52px;
+    
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) saturate(100%);
+    opacity: 1;
+  }
+  .carousel-control-prev-icon{
+    display: flex;
+    position: absolute;
+    left: 2em;
+    bottom: 1em;
+  }
+  .carousel-control-next-icon {
+   display: flex;
+   position: absolute;
+   right: 104em;
+   bottom: 1.1em;
+  }
+  .carousel-item {
+    opacity: 0;
+    transition: opacity .1s ease-in-out; 
+  }
+  .carousel-item.active {
+    opacity: 1;
+  }
+ 
+ 
+.topbar_btn{
+  background-color: transparent;
+  width: 102.062px;
+  height: 32px;
+  border: 1px solid rgb(101, 201, 34);
+  border-radius: 999px;
+  cursor:pointer ;
+}
+.topbar_btn:hover{
+  background-color: var(--button1);
+}
+
+  
