@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.topbar .carousel-caption {
+    position: static; 
+    display: flex;
+    text-align: left;
+    color: var(--fontcolor2); 
+    line-height: 24px;
+    font-family: 'Inter';
+    font-size: 16px; 
+    font-weight: 600;
+    padding: 15px 55px;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) saturate(100%);
+    opacity: 1;
+  }
+  .carousel-control-prev-icon{
+    display: flex;
+    position: absolute;
+    left: 1.9em;
+    bottom: 35px;
+  }
+  .carousel-control-next-icon {
+   display: flex;
+   position: absolute;
+   right: 113.7em;
+   bottom: 35px;
+  }
+ 
+  
+
+  

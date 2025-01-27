@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Slider from './components/Slider'
+import Topbar from './components/Topbar'
 
 
 function App() {
@@ -7,10 +7,9 @@ function App() {
 
   return (
     <>
-    <Slider/>
-        
+     <Topbar/>
     </>
   )
 }
 
-export default App
+export default App;
