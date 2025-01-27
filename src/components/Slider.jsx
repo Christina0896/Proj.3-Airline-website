@@ -5,7 +5,7 @@ import { Carousel } from 'react-bootstrap';
 function Slider({ slides, interval = 4000, controls = true, indicators = true,className }) {
 
   return (
-    <Carousel controls={controls} indicators={indicators} interval={interval} className={className}>
+    <Carousel controls={controls} indicators={indicators}  interval={interval} className={className}>
       {slides.map((slide) => (
         <Carousel.Item key={slide.id}>
           {/*Will show img if available*/}
